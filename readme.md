@@ -11,17 +11,17 @@ This project implements an AI agent capable of performing searches.
     ```
     *Note: On Windows, use `venv\Scripts\activate`*
 
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Navigate to the agent directory:**
+2.  **Navigate to the agent directory:**
     ```bash
     cd agent
     ```
 
-4.  **Set up API Keys:**
+3.  **Install dependencies (within the `agent` directory):**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Set up API Keys (within the `agent` directory):**
     Export the following environment variables with your API keys:
     ```bash
     export OPENAI_API_KEY='your_openai_api_key'
@@ -32,8 +32,8 @@ This project implements an AI agent capable of performing searches.
 
 ## Running the Agent
 
-Execute the main agent script:
+Execute the main agent script (ensure you are in the `agent` directory):
 
 ```bash
-python agent.py
+python experiment.py
 ```
