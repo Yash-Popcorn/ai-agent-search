@@ -37,3 +37,12 @@ Execute the main agent script (ensure you are in the `agent` directory):
 ```bash
 python experiment.py
 ```
+
+## Demo
+
+![Demo Screenshot](agent/slides/demo.png)
+![Demo Screenshot 1](agent/slides/demo%20%281%29.png)
+![Demo Screenshot 2](agent/slides/demo%20%282%29.png)
+![Demo Screenshot 3](agent/slides/demo%20%283%29.png)
+![Demo Screenshot 4](agent/slides/demo%20%284%29.png)
+![Demo Screenshot 5](agent/slides/demo%20%285%29.png)
